@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  
+}
+.left,
+.right {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: rgb(235, 137, 204);
+  color: white;
+}
+.fa-facebook {
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+.fa-google {
+  border-radius: 50%;
+  background-color: white;
+  outline: 2px solid red;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 0px;
+  padding-top: 3px;
+}
+.fa-linkedin {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  padding: 5px 0 0 5px;
+}
+label,
+h4 {
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="checkbox"] {
+  accent-color: red;
+}
+.forgot {
+  float: right;
+}
+hr {
+  display: block;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: gray;
+  
+}
+.log-sign{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+.form-container{
+    flex:5;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.faw-icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.login, .sign-in{
+    background-color: rgb(235, 137, 204);
+    height: 30px;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
